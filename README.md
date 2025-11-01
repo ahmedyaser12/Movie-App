@@ -1,6 +1,25 @@
 # 🌟 Movies App - Features Summary
 
 ## 🎯 Main Features at a Glance
+<img src="https://github.com/user-attachments/assets/a2474faa-b9bb-419d-ae02-7adedb3a8d6e" alt="Reports Screen" width="200">
+<img src="https://github.com/user-attachments/assets/dfbb2764-3810-4098-a21f-abb31b8d219f" alt="Reports Screen" width="200">
+<img src="https://github.com/user-attachments/assets/6e14e514-833e-4fcd-8b05-6e0fafc5417c" alt="Reports Screen" width="200">
+<img src="https://github.com/user-attachments/assets/9100cc3f-e67c-4a0d-8555-fd392f3717f4" alt="Reports Screen" width="200">
+
+## 📊 Feature Comparison
+
+| Feature | Implementation | Benefit |
+|---------|---------------|---------|
+| Pagination | Infinite scroll | No manual buttons |
+| Caching | Hive database | 10x faster |
+| Networking | Dio client | Better error handling |
+| State | BLoC pattern | Predictable updates |
+| Architecture | Clean 3-layer | Easy to test & maintain |
+| Themes | Material Design 3 | Modern, accessible |
+| Offline | Cache-first | Always available |
+| Errors | Comprehensive | User-friendly |
+
+---
 
 ### 1. 📜 Infinite Scroll Pagination
 **What it does:** Automatically loads more movies as you scroll down the list.
@@ -238,21 +257,6 @@ User Action → Event → BLoC → State → UI Update
 - 💾 Reduced data usage
 - 📱 Works offline
 - 🖼️ Better UX
-
----
-
-## 📊 Feature Comparison
-
-| Feature | Implementation | Benefit |
-|---------|---------------|---------|
-| Pagination | Infinite scroll | No manual buttons |
-| Caching | Hive database | 10x faster |
-| Networking | Dio client | Better error handling |
-| State | BLoC pattern | Predictable updates |
-| Architecture | Clean 3-layer | Easy to test & maintain |
-| Themes | Material Design 3 | Modern, accessible |
-| Offline | Cache-first | Always available |
-| Errors | Comprehensive | User-friendly |
 
 ---
 
